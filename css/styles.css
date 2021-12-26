@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    float: none;
+    clear: both;/*limpia lo que esta flotando*/
+}
+
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+}
+#logo{
+    font-family: "Verdana","Arial";
+    font-size: 30px;
+    letter-spacing: 4px;/*para que las letras se separen entre si*/
+    line-height: 80px;
+    color: white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+}
+#menu{
+    font-family: Helvetica,Arial;
+    width: 100%;
+    background: #333;
+    text-transform: uppercase;/*para hacer la letra mayuscula*/
+    margin-bottom: 20px;
+}
+#menu ul{
+    line-height: 46px;
+    list-style: none;
+}
+#menu ul li{
+    line-height: 46px;
+    display: inline-block;/*establece los elementos uno al lado del otro*/
+    transition: all 300ms;
+}
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#posts{
+    width: 60%;
+    float: left;
+    font-family: Helvetica, Arial;
+}
+
+.post{
+    padding: 5px;/*entra un poco mas en la section*/
+}
+.post h2{
+    font-size: 30px;
+    color: #333;
+}
+
+.post .date{
+    display: block;/*para que funcionara el margin-top tuve que utilizar el display block*/
+    color: gray;
+    margin-top: 5px;
+}
+.post p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+.button-more{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    margin-bottom: 20px;
+}
+#aside{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 31%;
+    float: right;
+    padding: 5px;
+}
+#aside h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../img/lines.png") repeat-x;
+}
+#separador{
+    background: url("../img/lines.png") repeat-x;
+}
+#aside h4 span{
+    background: white;
+    padding: 10px;
+}
+#aside img{
+    width: 100%;
+}
+#aside p{
+    font-size: 15px;
+    text-align: justify;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"]{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 95%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form input[type="submit"]{
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 47px;
+    background: rgba(51,51,51,0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;/*importan quita cualuqier estilo de*/
+}
+
+#selector{
+    position: fixed;
+    top: 40%;
+    background: rgba(51,51, 51, 0,5);
+    width: 50px;
+    height: 100px;
+}
+#green, #red, #blue {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#green{
+    background: #235E3D;
+}
+#red{
+    background: #CA3413;
+}
+#blue{
+    background: #1F87C4;
+}
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
